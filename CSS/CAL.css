@@ -1,0 +1,106 @@
+.calculator {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: auto;
+	padding: 15px;
+	 position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),      url('https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.6435-9/179117585_1101168330371498_7529517814833289851_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFt1I7ek9vWl9-BcCvVdGMDLesyQkhNAf0t6zJCSE0B_be5OXa9XwDu9M_f8CBs05hDg9Xm79oR5slyZASx69fG&_nc_ohc=mRRIaEQtoqcAX8iBbQO&_nc_ht=scontent.fcgy1-1.fna&oh=00_AfBtGW-R4LDqwrNX9zb5v4zdAeMmdTJQo0luYDk6MZCUug&oe=644680D7');
+  background-size: cover;
+  background-position: center;
+	border-radius: 10px;
+	box-shadow: 7px 7px 15px rgba(1, 1, 0, 0.2);
+}
+
+.display {
+	flex-basis: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 15px;
+	font-size: 24px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 5px;
+	box-shadow: inset 0.0 0 5px rgba(0, 0, 0, 10);
+	margin-bottom: 10px;
+  border: 1px solid black; 
+}
+
+.button {
+	flex-basis: calc(25% - 5px);
+	height: 60px;
+	font-size: 26px;
+  font-weight: 600;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 15px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	cursor: pointer;
+  color: #FF1493;
+  border: 1px solid black; 
+  box-shadow: inset 0.0 0 3px rgba(0, 0, 0, 0.5);
+  font-family: Garamond, serif;
+  
+}
+
+.button:hover {
+	background-color: #FFC0CB;
+}
+
+.clear {
+	background-color: rgba(0, 0, 0, 0);
+	color: #FF1493;
+}
+
+.clear:hover {
+	background-color: #FFC0CB;
+}
+
+.backspace {
+	font-size: 23px;
+}
+
+.operator {
+	background-color:rgba(0, 0, 0, 0);
+		color:#FF1493;
+    font-weight: 900;
+}
+
+.operator:hover {
+	background-color: #FFC0CB;
+}
+
+.number {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.number:hover {
+	background-color: #FFC0CB;
+  
+}
+
+.decimal {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.decimal:hover {
+	background-color: #FFC0CB;
+}
+
+.equals {
+	background-color: rgba(0, 0, 0, 0);
+	color: #FF1493;
+}
+
+.equals:hover {
+	background-color: #FFC0CB;
+}
+.display {
+  color: #FF1493;
+  font-weight: 900;
+  font-family: Garamond, serif;
+  font-size: 25px;
+  display: flex;
+	flex-wrap: wrap;
+}
